@@ -48,7 +48,7 @@ contactList.push(person6)
 console.log(contactList);
 
 
-//what is this? boolean what?
+//conditional statement
 if (person1.firstName.length < 8) {
     console.log("Your name is too short")
   }
@@ -57,7 +57,6 @@ if (person1.firstName.length < 8) {
   }
 
 
-//why do I not need to log anything after these two?
 //Here I deleted the phone number from person1
 delete person1.phoneNumber;
 
@@ -71,8 +70,6 @@ console.log(combinedPhoneNumbers)
 
 
 //Here I'm adding the current date and time
-let d;
-
-d = new Date();
+let d = new Date();
 
 console.log(d.toString());
